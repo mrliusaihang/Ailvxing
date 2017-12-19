@@ -1,0 +1,78 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background:url(../img/wallpaper.jpg)no-repeat ;
+	background-size: cover;
+}
+.box{
+	width: 980px;
+	height: 374px;
+	margin: 300px auto;
+	border: 1px solid white;
+	background-color: white;
+}
+.boxIn{
+	width: 915px;
+	height: 315px;
+	margin: 25px auto;
+	position:relative;
+	
+}
+.boxLeft,.boxRight{
+	
+	width: 455px;
+	height: 310px;
+	float: left;
+}
+.boxLeft{
+	border-right: 1px solid #cccccc;
+}
+.box .boxIn .boxLeft .top{
+	position: absolute;
+	top: 4px;
+	left:4px;
+	font-size: 18px;
+	font-weight: bold;
+	border-bottom: 4px solid #82cb2d;
+}
+.box .boxIn .boxLeft .t-user{
+	width: 330px;
+	height: 227px;
+	position: absolute;
+	top: 80px;
+	left: 4px;
+}
+.box .boxIn .boxLeft .t-user p{
+	padding-bottom: 25px;
+}
+.box .boxIn .boxLeft .t-user .span-inp{
+	width: 240px;
+	height: 36px;
+}
+.box .boxIn .boxLeft .t-user .span-l{
+	width: 116px;
+	height: 36px;
+	margin-left: 116px;
+	background-color:#82cb2d ;
+	color: white;	
+}
+.box .boxIn .boxRight .top{
+	position: absolute;
+	top: 4px;
+	left:500px;
+	font-size: 18px;
+	font-weight: bold;
+	border-bottom: 4px solid #82cb2d;
+}
+.box .boxIn .boxRight .box-img{
+	width: 380px;
+	height: 150px;
+	background:url(../img/head.png) no-repeat -304px -125px;
+	margin: 80px auto 40px;
+}
+.box .boxIn .boxRight a{
+	margin-left: 256px;
+	
+}

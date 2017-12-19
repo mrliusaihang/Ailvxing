@@ -1,0 +1,81 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background-color:#eeeeee;
+}
+.log{
+	width: 980px;
+	height: 384px;
+    background-color: white;
+    padding-top: 4px;
+	margin: 200px auto;
+}
+.log .logIn{
+	width:930px ;
+	height: 340px;
+    
+	margin: 22px 45px 30px 30px;
+}
+.log .logL{
+	float: left;
+	width: 500px;
+	height: 330px;
+	
+}
+.log .logIn .logL .img1{
+	float: left;
+}
+.log .logIn .logL .img3{
+	float: left;
+}
+.log .logR{
+	float:right;
+	width: 350px;
+	height: 330px;
+	
+}
+.log .logR h4{
+	padding: 1px 1px 3px 10px;
+}
+.log .logR hr{
+	color: #cccccc;
+}
+.log .logR .lo{
+	width: 330px;
+	height: 36px;
+	padding: 22px 8px;
+}
+.log .logR .lo .l{
+	width: 114px;
+	height: 34px;
+	float: left;
+	background-color: #7dc82c;
+	color: white;
+}
+.log .logR .lo span{
+	height:40px ;
+	line-height: 40px;
+	margin-right: 20px;
+	float: right;
+}
+.log .logR .Inp1{
+	width:330px;
+	height: 40px;
+	margin: 22px 8px 0px;
+	padding-left: 8px;
+}
+.footImg{
+	width: 342px;
+	height: 40px;
+	background: url(../img/head.png) -295px -122px no-repeat;
+}
+.foot{
+	float: right;
+	
+	margin-top: 25px;
+}
+.foot a{
+	text-decoration: none;
+}
