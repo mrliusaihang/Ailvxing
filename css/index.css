@@ -38,6 +38,7 @@ a{
     }
     .top .top-t .top-con .inLeft{
     	float: left;	
+    	line-height: 35px;
     }
     .top .top-t .top-con .inRight{
     	float: right;
@@ -188,7 +189,7 @@ a{
     }
     .content .c-Right .c-c2{
     	width: 240px;
-    	height: 375px;
+    	height: 410px;
     	
     }
     
